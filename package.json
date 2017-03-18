@@ -1,0 +1,25 @@
+{
+  "name": "Sample-Node-Spotify-App",
+  "version": "1.0.0",
+  "description": "A sample application for assignment purpose",
+  "author": "Disha Ponkiya",
+  "license": "UNLICENSED",
+  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pdisha/Sample-Node-Spotify-App"
+  },
+  "scripts": {
+    "start": "node ./bin/www"
+  },
+  "dependencies": {
+    "body-parser": "~1.15.1",
+    "cookie-parser": "~1.4.3",
+    "debug": "~2.2.0",
+    "express": "~4.13.4",
+    "less-middleware": "^2.2.0",
+    "morgan": "~1.7.0",
+    "pug": "^2.0.0-beta11",
+    "serve-favicon": "~2.3.0"
+  }
+}
